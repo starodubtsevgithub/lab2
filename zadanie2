@@ -1,0 +1,25 @@
+package java1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author spv1142b
+ */
+public class zadanie2 {
+     public static void main(String[] args) {
+      Scanner in = new Scanner(System.in);
+      System.out.println("vvedite m");
+      int m=in.nextInt();
+      System.out.println("vvedite n");
+      int n=in.nextInt();
+      int i,j;
+      for(i=0;i < n;i++){
+          System.out.println("");
+          for(j=0;j<m;j++){
+              System.out.print("8");
+          }
+      }
+    } 
+}
+    
