@@ -1,0 +1,22 @@
+package java1;
+
+/**
+ *
+ * @author spv1142b
+ */
+public class zadanie1 {
+    
+    public static void main(String[] args) {
+        int N=100;
+        int i;
+        for(i=1;i<=N;i++){
+            if (i % 2==0){
+                System.out.print(i+" ");
+            }
+    
+        }
+        
+    
+    }
+    
+}
